@@ -74,3 +74,31 @@
 .ui.modal > .content {
     width: auto !important;
 }
+
+.ui.button,
+.ui.buttons .button,
+.ui.buttons .or {
+    font-size: 11px;
+    font-weight: 700;
+    background: #e0e1e25c none;
+}
+
+.ui.active.button,
+.ui.active.button:active,
+.ui.active.button:hover,
+.button.button_type_action {
+    font-weight: 400;
+    background: #ffde5a none;
+}
+
+.ui.button,
+.ui.button:active,
+.ui.button:hover,
+.button.button_type_action {
+    background: rgb(202,203,205, 0.6) none;
+}
+
+.custom-gui-controls {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
